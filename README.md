@@ -11,7 +11,7 @@ Feed Reader Testing
 
 
 
-# Description
+## Description
 
 In this project you are given a web-based application that reads RSS feeds. You will use [Jasmine](http://jasmine.github.io/) to write a number of tests against a pre-existing application.
 
@@ -28,7 +28,7 @@ In order to run the application you can:
 After that, open the `index.html` and check the test results.
 
 
-# To Complete the Tests
+## To Complete the Tests
 
 1. Familiarize yourself with the starter code
     * Open up `index.html` and review the functionality of the application within your browser
