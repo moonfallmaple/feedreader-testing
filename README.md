@@ -1,30 +1,34 @@
-# Project Overview
+Feed Reader Testing
+===============================
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+# Table of Contents
 
-
-## Why this Project?
-
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development." This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
-
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
-
-
-## What will I learn?
-
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
+* [Description](#description)
+* [Project Instructions](#project-instructions)
+* [Run the Application](#run-the-application)
+* [To Complete the Tests](#to-complete-the-tests)
+* [Code Dependencies](#code-dependencies)
 
 
-## How will this help my career?
 
-Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
+# Description
 
-Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
+In this project you are given a web-based application that reads RSS feeds. You will use [Jasmine](http://jasmine.github.io/) to write a number of tests against a pre-existing application.
+
+## Run the Application
+
+In order to run the application you can:
+
+* Download as .zip file
+* Clone or fork this project:
+
+    ```
+    $ git clone https://github.com/stearruda/fend-feed-reader-testing.git
+    ```
+After that, open the `index.html` and check the test results.
 
 
-# Development Strategy
-
-For a refresher (or reference) before you begin writing code, we recommend reviewing the content from [JavaScript Testing](https://www.udacity.com/course/javascript-testing--ud549). Your project will be evaluated by a Udacity code reviewer according to the [Feed Reader Testing project rubric](https://review.udacity.com/#!/rubrics/18/view). Please review for detailed project requirements.
+# To Complete the Tests
 
 1. Familiarize yourself with the starter code
     * Open up `index.html` and review the functionality of the application within your browser
@@ -60,8 +64,6 @@ For a refresher (or reference) before you begin writing code, we recommend revie
 12. Write a test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes
     * How is this test different from the previous test?
 
-Additionally, note that:
-
  * No test should be dependent on the results of another
  * Callbacks should be used to ensure that feeds are loaded before they are tested
  * Error handling should be implemented for undefined variables and out-of-bound array access
@@ -69,6 +71,13 @@ Additionally, note that:
 
 When you're all finished, write a `README` file detailing all steps required to successfully run the application. If you have added additional tests, provide documentation for what these future features are and what the tests are checking for.
 
-# Contributing
+## Code Dependencies
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+* [Project Feed Reader Testing - Starter Code](https://github.com/udacity/frontend-nanodegree-feedreader)
+* [jQuery](https://jquery.com/)
+* [Normalize.css](https://necolas.github.io/normalize.css/)
+* [Handlebars](https://handlebarsjs.com/)
+* [Google's JavaScript Loader API](https://www.google.com/jsapi)
+* [Jasmine](https://jasmine.github.io/)
+* Icon: [Icomoon](https://icomoon.io/)
+* Fonts: [Google Fonts](https://fonts.google.com/)
