@@ -4,7 +4,6 @@ Feed Reader Testing
 # Table of Contents
 
 * [Description](#description)
-* [Project Instructions](#project-instructions)
 * [Run the Application](#run-the-application)
 * [To Complete the Tests](#to-complete-the-tests)
 * [Code Dependencies](#code-dependencies)
@@ -23,7 +22,7 @@ In order to run the application you can:
 * Clone or fork this project:
 
     ```
-    $ git clone https://github.com/stearruda/fend-feed-reader-testing.git
+    $ git clone https://github.com/moonfallmaple/feedreader-testing.git
     ```
 After that, open the `index.html` and check the test results.
 
